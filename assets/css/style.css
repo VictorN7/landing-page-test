@@ -54,14 +54,14 @@ h6{
 
 .main-bg{
 
-    background-image: url('/landingpagetest/assets/img/background-svg2.svg');
+    background-image: url('landingpagetest/assets/img/background-svg2.svg');
     background-position: center center;
     background-size: contain;
 }
 
 .white-bg{
 
-    background-image: url('/landingpagetest/assets/img/background-svg1.svg');
+    background-image: url('landingpagetest/assets/img/background-svg1.svg');
     background-position: center center;
     background-size: contain;
 }
