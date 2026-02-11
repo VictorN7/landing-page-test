@@ -4,7 +4,11 @@
 }
 
 :root{
+    --first-color: #F8843F;
+    --second-color: #DA3D20;
+    --third-color: #3D45AA;
 
+    --gap: 30px;
 }
 
 /*
@@ -13,10 +17,10 @@ font-family: 'Montserrat', sans-serif;
 */
 
 body{
+
     font-family: 'Open sans', sans-serif;
-    background-image: url('/landingpagetest/assets/img/background-svg.svg');
-    background-position: center center;
-    background-size:contain;
+    font-size: 15px;
+
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -46,4 +50,29 @@ h5{
 
 h6{
     font-size: 21px ;
+}
+
+.main-bg{
+
+    background-image: url('/landingpagetest/assets/img/background-svg2.svg');
+    background-position: center center;
+    background-size: contain;
+}
+
+.white-bg{
+
+    background-image: url('/landingpagetest/assets/img/background-svg1.svg');
+    background-position: center center;
+    background-size: contain;
+}
+
+.main-content{
+    color:#ffff;
+    max-width: 1200px;
+    margin: 0 auto ;
+    padding: var(--gap);
+}
+
+.section{
+    min-height: 100vh;
 }
